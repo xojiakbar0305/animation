@@ -1,0 +1,8 @@
+@for $schetchik from 1 to 9 {
+  .box {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+  }
+}

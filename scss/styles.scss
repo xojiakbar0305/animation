@@ -1,0 +1,13 @@
+@for $schetchik from 1 to 9 {
+  .container{
+    display: flex;
+    align-items: center;
+  }
+  .box:nth-child(#{$schetchik}){
+    width: 100px;
+    height: 100px + 50px * $schetchik;
+    background-color: grey;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+}
